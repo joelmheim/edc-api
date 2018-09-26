@@ -17,10 +17,10 @@ spec:
       environmentVariables:
         - environment: development
           variables:
-            port: 3000
+            PORT: 3000
         - environment: test
           variables:
-            port: 3001
+            PORT: 3001
         - environment: prodiction
           variables:
-            port: 3002
+            PORT: 3002
